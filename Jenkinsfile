@@ -7,7 +7,7 @@ pipeline
     {
         steps
         {
-          java DevHelloWorld
+          sh 'javac DevHelloWorld.java'
         }
     }
   }
