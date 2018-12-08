@@ -3,11 +3,11 @@ pipeline
   agent any
   stages
   {
-    stage('build')
+    stage('Run')
     {
         steps
         {
-          javac DevHelloWorld.java
+          java DevHelloWorld
         }
     }
   }
